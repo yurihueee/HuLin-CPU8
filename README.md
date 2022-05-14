@@ -4,10 +4,22 @@ by Yuri Hu and Faith Lin. An 8-bit CPU was designed and implemented using Verilo
 ## Instruction Set Architecture 
 We designed an ISA that utilizes 16-bit instructions consisting of 3 different formats **Register (R-type)**, **Immediate (I-type)** and **Jump (J-type)**. In order for the machine to efficiently identify the type of instruction, all R-type have an opcode starting with 1 while J-type commands have an all 0 first opcode, aything else is classified as I-type. Having an 8-bit CPU allows us to allocate 8-bits for immediate instructions. With the extra unused 8-bits, we will label 2 our registers with 2 bits, 4 registers to handle both input reading from files and output writing to files. 
 
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
 
 
 ## Memory
+The memory is byte addressable, since all registers can only carry 8 bits and each instruction has 8 bits. There are two sections of the memory stack, the instruction memory and data memory. Similar to reading LEGv8, memory with larger addresses will be placed at the bottom of the stack and on the top of the stack will be instructions with 0 address, which is the default and working down. 
+
+### imem 
+The instruction memory needs to only provide read access because the datapath does not write instructions. It consists of 256 lines of 16-bit instruction. It is word addressed.
+
+### drem
+The data memory is a single-port random access memory (RAM). It consists of 256 lines of 16-bit instruction. It is byte addressed.
+
 ## Controller 
+
+control unit with decoders (main decoder and alu decoder). That will explain the Verilog of how the PC advances for conditional and unconditional branching. I will like to understand how your handle the calculation of the PC for branching/jumping.
+
 ### Main decoder
 ### ALU decoder
 ## Arithmetic Logic Unit (ALU) 
