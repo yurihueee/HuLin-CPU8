@@ -12,7 +12,7 @@ We designed an ISA that utilizes 18-bit instructions consisting of 3 different f
 The memory is byte addressable, since all registers can only carry 8 bits and each instruction has 8 bits. There are two sections of the memory stack, the instruction memory and data memory. Similar to reading LEGv8, memory with larger addresses will be placed at the bottom of the stack and on the top of the stack will be instructions with 0 address, which is the default and working down. 
 
 ### imem 
-The instruction memory needs to only provide read access because the datapath does not write instructions. It consists of 256 lines of 16-bit instruction. It is word addressed.
+The instruction memory needs to only provide read access because the datapath does not write instructions. It consists of 256 lines of 18-bit instruction. It is word addressed.
 
 ### dmem
 The data memory is a single-port random access memory (RAM). It consists of 256 lines of 16-bit instruction. It is byte addressed.
