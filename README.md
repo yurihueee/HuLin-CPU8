@@ -64,6 +64,8 @@ All instruction classes, except unconditional branch, use the ALU after reading 
 |HALT()   | |           000000000000000000|
 |HALT()    | |          000000000000000100|
 |BNE R7, R7, #126  | |  111111111111111110|
+|DATA0: INT(4) | N | |
+|DATA1: INT(-2)| | | |
 
 ```
 
