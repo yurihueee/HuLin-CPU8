@@ -13,7 +13,7 @@ The memory is byte addressable, since all registers can only carry 8 bits and ea
 ### imem 
 The instruction memory needs to only provide read access because the datapath does not write instructions. It consists of 256 lines of 16-bit instruction. It is word addressed.
 
-### drem
+### dmem
 The data memory is a single-port random access memory (RAM). It consists of 256 lines of 16-bit instruction. It is byte addressed.
 
 ## Controller 
