@@ -26,7 +26,7 @@ All instruction classes, except unconditional branch, use the ALU after reading 
 
 (computer organization and design ARM ediiton textbook) 
 
-### Architecture Diagram 
+## Architecture Diagram 
 
 ### R-type 
 
