@@ -1,61 +1,61 @@
 # Authors of OTTObit CPU
 
 # Engineers
-* StudentA
-* StudentB
+* Yuri Hu
+* Faith Lin
 
 # Artifacts
 
 ## Instruction Set Architecture (ISA)
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (50%)
+* Faith Lin (50%)
 
 ## CPU Implementation in Verilog
 
 ### Memory
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (30%)
+* Faith Lin (70%)
 
 ### Register File
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (60%)
+* Faith Lin (40%)
 
 ### ALU
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (50%)
+* Faith Lin (50%)
 
 ### Controller
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (70%)
+* Faith Lin (30%)
 
 ### Datapath
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (50%)
+* Faith Lin (50%)
 
 ### Verilog Test Bench for Computer
 < including program load into imem >
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (50%)
+* Faith Lin (50%)
 
 ## Compilation of Assembly Code into Machine Code
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (40%)
+* Faith Lin (60%)
 
 ## Timing Diagrams
 
 ### R-Type Instruction example
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (100%)
+* Faith Lin (0%)
 
 ### I-Type Instruction example
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (50%)
+* Faith Lin (50%)
 
 ### J-Type Instruction example
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (0%)
+* Faith Lin (100%)
 
 ## Assembler
-* StudentA (50%)
-* StudentB (50%)
+* Yuri Hu (0%)
+* Faith Lin (0%)
 
