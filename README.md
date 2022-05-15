@@ -4,9 +4,9 @@ by Yuri Hu and Faith Lin. An 8-bit CPU was designed and implemented using Verilo
 ## Instruction Set Architecture 
 We designed an ISA that utilizes 18-bit instructions consisting of 3 different formats **Register (R-type)**, **Immediate (I-type)** and **Jump (J-type)**. In order for the machine to efficiently identify the type of instruction, all R-type have an opcode starting with 1 while J-type commands have an all 0 opcode and 2 bit for func to further differentiate, anything else is classified as I-type. 
 
+<img width="728" alt="Screen Shot 2022-05-16 at 2 17 15 AM" src="https://user-images.githubusercontent.com/75409461/168487989-647e5836-54eb-4c05-83b0-fa30af254147.png">
+
 <img width="934" alt="Screen Shot 2022-05-16 at 2 16 58 AM" src="https://user-images.githubusercontent.com/75409461/168487913-d61b90d3-cd4e-4db5-bef3-66cf3bb240b0.png">
-
-
 
 ## Memory
 The memory is byte addressable, since all registers can only carry 8 bits and each instruction has 8 bits. There are two sections of the memory stack, the instruction memory and data memory. Similar to reading LEGv8, memory with larger addresses will be placed at the bottom of the stack and on the top of the stack will be instructions with 0 address, which is the default and working down. 
