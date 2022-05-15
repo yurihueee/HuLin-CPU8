@@ -48,3 +48,5 @@ All instruction classes, except unconditional branch, use the ALU after reading 
 ![278986251_669476350823061_7790292835379738_n](https://user-images.githubusercontent.com/75409461/168488112-3d59709f-acf5-4462-92ca-fa458fe16b75.png)
 
 ## GTKwave Timing Diagram
+
+![279455267_377244157516076_6471208653663728499_n](https://user-images.githubusercontent.com/75409461/168488513-e5a6407e-3052-4ac1-ace2-2d076816cb0e.png)
