@@ -46,11 +46,13 @@ All instruction classes, except unconditional branch, use the ALU after reading 
 ![278986251_669476350823061_7790292835379738_n](https://user-images.githubusercontent.com/75409461/168488112-3d59709f-acf5-4462-92ca-fa458fe16b75.png)
 
 ## Machine Code (Square of N)
-```
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
+
+```
+
 ASSEMBLY            MACHINE CODE
 
 LOAD R0, #13, R1 // R1 = DATA[0] = 4   110100000010001101
