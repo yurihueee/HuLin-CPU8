@@ -35,7 +35,7 @@ All instruction classes, except unconditional branch, use the ALU after reading 
 ### I-type  
 ![279910773_1395161947613819_8651351898423275588_n](https://user-images.githubusercontent.com/75409461/168488087-25130884-2a56-4e03-8da5-92829eeae9f0.png)
 
-### Jump 
+### I-type branch 
 ![280215140_426966342598406_4893051057257879497_n](https://user-images.githubusercontent.com/75409461/168488097-7561061a-a467-496a-b964-aa2faad2ad3d.png)
 
 ### R-type Store
