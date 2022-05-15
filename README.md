@@ -47,8 +47,8 @@ All instruction classes, except unconditional branch, use the ALU after reading 
 
 ## Machine Code (Square of N)
 ```
-| ASSEMBLY | DESCRIPTION | MACHINE CODE |
-| :---:         |     :---:      |   :---: |
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 ASSEMBLY            MACHINE CODE
