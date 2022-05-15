@@ -18,10 +18,13 @@ The data memory is a single-port random access memory (RAM). It consists of 256 
 
 ## Controller 
 
-The controller operates the timing sequence and access of data in the CPU's modules. The clock here determines the order of events within a gate, and defines when signals can be converted to data to be read or written to processor components. Edge-triggered clocking can support a precise state transition. As instructions are loaded and goes through the decoder, the controller 'lights up' the correct data path based on R, J, I data commands. For R and I-type instructions, it is multiplexers while J-type signals the controller to toggle enable signal in order to change branching. 
+The controller operates the timing sequence and access of data in the CPU's modules. This is a single cycle CPU implementation where CPI is 1. The clock here determines the order of events within a gate, and defines when signals can be converted to data to be read or written to processor components. Edge-triggered clocking can support a precise state transition. As instructions are loaded and goes through the decoder, the controller 'lights up' the correct data path based on R, J, I data commands. For R and I-type instructions, it is multiplexers while J-type signals the controller to toggle enable signal in order to change branching. 
 
-### ALU decoder
-## Arithmetic Logic Unit (ALU) 
+## Arithmetic Logic Unit (ALU)
+All instruction classes, except unconditional branch, use the ALU after reading the registers. The memory-reference instructions use the ALU for an address calculation, the arithmetic-logical instructions for the operation execution, and conditional branches for comparison to zero. 
+
+(computer organization and design ARM ediiton textbook) 
+
 ### Architecture Diagram 
 
 ## GTKwave Timing Diagram
