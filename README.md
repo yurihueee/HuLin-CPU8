@@ -27,16 +27,14 @@ All instruction classes, except unconditional branch, use the ALU after reading 
 (computer organization and design ARM ediiton textbook) 
 
 ## Architecture Diagram 
-
-### R-type 
-
-![280281698_747099176315353_4281020255502990702_n](https://user-images.githubusercontent.com/75409461/168488092-a748baf4-65fd-4add-998b-cea5367bcf7f.png)
-
 ### I-type  
 ![279910773_1395161947613819_8651351898423275588_n](https://user-images.githubusercontent.com/75409461/168488087-25130884-2a56-4e03-8da5-92829eeae9f0.png)
 
 ### I-type branch 
 ![280215140_426966342598406_4893051057257879497_n](https://user-images.githubusercontent.com/75409461/168488097-7561061a-a467-496a-b964-aa2faad2ad3d.png)
+
+### R-type 
+![280281698_747099176315353_4281020255502990702_n](https://user-images.githubusercontent.com/75409461/168488092-a748baf4-65fd-4add-998b-cea5367bcf7f.png)
 
 ### R-type Store
 ![279218833_714415766645003_5607809440767389963_n](https://user-images.githubusercontent.com/75409461/168488104-01d89a75-1804-40a4-bb14-263803a6c63d.png)
@@ -44,7 +42,7 @@ All instruction classes, except unconditional branch, use the ALU after reading 
 ### R-type Load  
 ![278471548_740640806976314_1537131029111954008_n](https://user-images.githubusercontent.com/75409461/168488105-49ada2fb-c257-46f9-b28f-5ebc40435aec.png)
 
-### J-type
+### Jump
 ![278986251_669476350823061_7790292835379738_n](https://user-images.githubusercontent.com/75409461/168488112-3d59709f-acf5-4462-92ca-fa458fe16b75.png)
 
 ## GTKwave Timing Diagram
