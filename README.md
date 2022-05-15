@@ -4,7 +4,8 @@ by Yuri Hu and Faith Lin. An 8-bit CPU was designed and implemented using Verilo
 ## Instruction Set Architecture 
 We designed an ISA that utilizes 18-bit instructions consisting of 3 different formats **Register (R-type)**, **Immediate (I-type)** and **Jump (J-type)**. In order for the machine to efficiently identify the type of instruction, all R-type have an opcode starting with 1 while J-type commands have an all 0 opcode and 2 bit for func to further differentiate, anything else is classified as I-type. 
 
-![This is an image]()
+<img width="934" alt="Screen Shot 2022-05-16 at 2 16 58 AM" src="https://user-images.githubusercontent.com/75409461/168487913-d61b90d3-cd4e-4db5-bef3-66cf3bb240b0.png">
+
 
 
 ## Memory
